@@ -1,10 +1,11 @@
  Task 4 Inery Blockchain'in devamı
 
-### 1. Inery_Account Name yerine kendi Inery Account Name'inizi yazın
+## Kullanıcı Adını Değişkene Atama
+`HESAP_ADINIZ` Kullanıcı panelinizde yazan hesap adınızı yazıyorsunuz.
 
 ```
 cd
-IneryAccname=Inery_Account Name
+IneryAccname=HESAP_ADINIZ
 ```
 ```
 export PATH="$PATH:$HOME/inery.cdt/bin:$HOME/inery-node/inery/bin"
@@ -30,11 +31,11 @@ cd
 git clone kopyaladığınız bağlantı linki
 ```
 
-#### 4. Proje dizinleri oluşturun ( IneryAccname kısmına kendi inery Account Name girin )
+#### 4. Proje dizinleri oluşturun
 
 ```
 cd ~/inery-testnet-faucet-tasks
-mkdir IneryAccname
+mkdir $IneryAccname
 ```
 
 ### 5. Çalıştır Komutu ile build-web çalıştırın
@@ -46,7 +47,7 @@ npm run build-web
 ![task 4](https://user-images.githubusercontent.com/107887745/209413181-9545307a-139a-4c3c-b612-4735eeb11f2a.png)
 
 
-### 6. Web sitesi Klasörünü Projeye kopyalayın ( IneryAccname kısmına kendi inery Account Name girin )
+### 6. Web sitesi Klasörünü Projeye kopyalayın
 ```
 cp -r $HOME/ineryjs/dist-web/ $HOME/inery-testnet-faucet-tasks/$IneryAccname/dist-web/
 ```
@@ -72,14 +73,14 @@ nano index.html
     })();
 </script>
 ```
-### 9. İNERY 4. GÖREV İÇİN BİR REHBER HAZIRLAYIN ( IneryAccname kısmına kendi inery Account Name girin )
+### 9. İNERY 4. GÖREV İÇİN BİR REHBER HAZIRLAYIN
 ##### NOT = REHBERİ OLAN BİRİNDEN YAPABİLİRSİNİZ
 ```
 cd ~/inery-testnet-faucet-tasks/$IneryAccname
 nano README.md
 ```
 
-### 10. Görevi Github'a Bağlayın ( IneryAccname kısmına kendi inery Account Name girin ) sonda şifre isterse rehberin sonunda nasıl alacağınızı yazdım
+### 10. Görevi Github'a Bağlayın sonda şifre isterse rehberin sonunda nasıl alacağınızı yazdım
 ```
 cd ~/inery-testnet-faucet-tasks/
 ```
