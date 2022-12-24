@@ -57,18 +57,17 @@ cp -r $HOME/ineryjs/dist-web/ $HOME/inery-testnet-faucet-tasks/$IneryAccname/dis
 cd ~/inery-testnet-faucet-tasks/$IneryAccname
 nano index.html
 ```
-<p align="center">
-  <img src="https://github.com/ArumaSanjayani/Images/blob/main/ip.png">
-</p>
+![55](https://user-images.githubusercontent.com/107887745/209452070-1380862d-a6e6-4c34-94cf-ac81548443e0.png)
 
-##### 8. Aşağıdaki KODU girin ve IP yazan kısma kendi sunucu ip adresini yazın ve <> işaretini kaldırmayı unutmayın çıkarken ctrl + x + y enter 
+
+##### 8. Aşağıdaki KODU girin ve IP ADRESİNİZ kısmına kendi ip adresinizi yazın çıkarken ctrl + x + y enter 
 ```
 <script src="./dist-web/inery-jsonrpc.min.js"></script>
 <script src="./dist-web/inery-api.min.js"></script>
 <script src="./dist-web/inery-jssig.min.js"></script>
 <script>
     (async()=>{
-        const rpc=new ineryjs_jsonrpc.JsonRpc("https://<IPmu>:8888");
+        const rpc=new ineryjs_jsonrpc.JsonRpc("https://iP ADRESİNİZ:8888");
         console.log(await rpc.get_info());
     })();
 </script>
@@ -123,21 +122,19 @@ https://github.com/inery-blockchain/inery-testnet-faucet-tasks
 
 ![task10](https://user-images.githubusercontent.com/107887745/209414889-baf3559f-3649-409e-baea-a668a01289d2.png)
 
+![1](https://user-images.githubusercontent.com/107887745/209451981-188701f0-47fc-4869-afa8-bafee541eac7.png)
 
-<p align="center">
-  <img src="https://github.com/ArumaSanjayani/Images/blob/main/setting2.png">
-</p>
 
-<p align="center">
-  <img src="https://github.com/ArumaSanjayani/Images/blob/main/token.png">
-</p>
+
+![2](https://user-images.githubusercontent.com/107887745/209451947-a4ea40b0-6c18-4b27-a0ba-c54d1510a0c3.png)
+
+
 
 ### BURADAKİ TÜM KUTUCUKLARI İŞARETLEYİN GENERATE TOKEN DİYEREK ŞİFREYİ ALIN ŞİFREYİ BİR YERE KOPYALAYIN TEKRAR LAZIM OLDUĞUNDA KULLANIRSINIZ
 
-<p align="center">
-  <img src="https://github.com/ArumaSanjayani/Images/blob/main/token2.png">
-</p>
+![3](https://user-images.githubusercontent.com/107887745/209451959-f3bfd144-2aec-4251-a8a4-22fbefedb25b.png)
 
-<p align="center">
-  <img src="https://github.com/ArumaSanjayani/Images/blob/main/simpan.png">
-</p>
+
+![4](https://user-images.githubusercontent.com/107887745/209451998-93201fe6-a0a2-4c8b-9abc-9b8a0c234ff2.png)
+
+
