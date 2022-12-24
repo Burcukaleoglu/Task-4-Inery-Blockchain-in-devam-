@@ -24,13 +24,14 @@ https://github.com/inery-blockchain/inery-testnet-faucet-tasks
 ![task 3](https://user-images.githubusercontent.com/107887745/209412744-11f6f3a7-67d6-4aa3-9bc4-07be0bad16e9.png)
 
 
-### 3. En son resimde kopyaladığınız bağlantıyı aşağıda inery kurulu olan sunucuya girin
+### 3. En son resimde kopyaladığınız bağlantıyı aşağıda inery kurulu olan sunucuya girin HTTPS seçili olduğundan emin olun
 ```
 cd
 git clone kopyaladığınız bağlantı linki
 ```
 
-#### 4. Proje dizinleri oluşturun
+#### 4. Proje dizinleri oluşturun ( IneryAccname kısmına kendi inery Account Name girin )
+
 ```
 cd ~/inery-testnet-faucet-tasks
 mkdir IneryAccname
@@ -45,7 +46,7 @@ npm run build-web
 ![task 4](https://user-images.githubusercontent.com/107887745/209413181-9545307a-139a-4c3c-b612-4735eeb11f2a.png)
 
 
-### 6. Web sitesi Klasörünü Projeye kopyalayın
+### 6. Web sitesi Klasörünü Projeye kopyalayın ( IneryAccname kısmına kendi inery Account Name girin )
 ```
 cp -r $HOME/ineryjs/dist-web/ $HOME/inery-testnet-faucet-tasks/$IneryAccname/dist-web/
 ```
@@ -59,7 +60,7 @@ nano index.html
   <img src="https://github.com/ArumaSanjayani/Images/blob/main/ip.png">
 </p>
 
-##### 8. Aşağıdaki KODU girin ve IP'nizi değiştirmeyi ve <> işaretini kaldırmayı unutmayın çıkarken ctrl + x + y enter 
+##### 8. Aşağıdaki KODU girin ve IP yazan kısma kendi sunucu ip adresini yazın ve <> işaretini kaldırmayı unutmayın çıkarken ctrl + x + y enter 
 ```
 <script src="./dist-web/inery-jsonrpc.min.js"></script>
 <script src="./dist-web/inery-api.min.js"></script>
@@ -71,14 +72,14 @@ nano index.html
     })();
 </script>
 ```
-### 9. İNERY 4. GÖREV İÇİN BİR REHBER HAZIRLAYIN 
+### 9. İNERY 4. GÖREV İÇİN BİR REHBER HAZIRLAYIN ( IneryAccname kısmına kendi inery Account Name girin )
 ##### NOT = REHBERİ OLAN BİRİNDEN YAPABİLİRSİNİZ
 ```
 cd ~/inery-testnet-faucet-tasks/$IneryAccname
 nano README.md
 ```
 
-### 10. Görevi Github'a Bağlayın sonda şifre isterse rehberin sonunda nasıl alacağınızı yazdım
+### 10. Görevi Github'a Bağlayın ( IneryAccname kısmına kendi inery Account Name girin ) sonda şifre isterse rehberin sonunda nasıl alacağınızı yazdım
 ```
 cd ~/inery-testnet-faucet-tasks/
 ```
@@ -129,6 +130,8 @@ https://github.com/inery-blockchain/inery-testnet-faucet-tasks
 <p align="center">
   <img src="https://github.com/ArumaSanjayani/Images/blob/main/token.png">
 </p>
+
+### BURADAKİ TÜM KUTUCUKLARI İŞARETLEYİN GENERATE TOKEN DİYEREK ŞİFREYİ ALIN ŞİFREYİ BİR YERE KOPYALAYIN TEKRAR LAZIM OLDUĞUNDA KULLANIRSINIZ
 
 <p align="center">
   <img src="https://github.com/ArumaSanjayani/Images/blob/main/token2.png">
