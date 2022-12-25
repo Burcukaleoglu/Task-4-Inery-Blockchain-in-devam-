@@ -1,4 +1,4 @@
- Task 4 Inery Blockchain'in devamı
+## İNERY 4. GÖREVİN DEVAMI GİTHUB İŞLEMLERİ
 
 ## Kullanıcı Adını Değişkene Atama
 `HESAP_ADINIZ` Kullanıcı panelinizde yazan hesap adınızı yazıyorsunuz.
