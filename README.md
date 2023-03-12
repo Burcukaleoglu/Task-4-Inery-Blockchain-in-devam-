@@ -139,4 +139,5 @@ https://github.com/inery-blockchain/inery-testnet-faucet-tasks
 
 
 
-![Inery-Ecosystem-1655296937](https://user-images.githubusercontent.com/107887745/224562839-be02fdae-c2e3-4d58-8570-245b657572c5.png)
+![FAiKClTWUAUI-zC](https://user-images.githubusercontent.com/107887745/224564687-60da8084-5400-4cc6-a661-51d51957c9c6.jpg)
+
